@@ -7,8 +7,8 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 // STEP: paste your project's Project URL and publishable/anon key here.
 // These values are designed for browser use only when Row Level Security is enabled.
-const SUPABASE_URL = "";
-const SUPABASE_ANON_KEY = "";
+const SUPABASE_URL = "https://bezluudflbpxjxzynozp.supabase.co.";
+const SUPABASE_ANON_KEY = "sb_publishable_REgN8mFJTLaZSksFaMu-2g_Qmm2m72Z";
 const supabaseReady = Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);
 const supabase = supabaseReady ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
